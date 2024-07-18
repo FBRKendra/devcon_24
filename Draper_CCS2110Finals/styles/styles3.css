@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;700&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+li, a, button {
+	font-family: "Jura", sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	color: #edf0f1;
+	text-decoration: none;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 15px 10%;
+	overflow: auto;
+	background-color: #00304F;
+}
+
+#backgroundimage {
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../images/campus.jpg);
+	min-height: 400px;
+	background-size: cover;
+	background-position: 0px -200px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.logo {
+	cursor: pointer;
+	margin-right: auto;
+	height: auto;
+}
+
+.links {
+	list-style: none;
+}
+
+.links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.links li a{
+	transition: all 0.3s ease 0s;
+}
+
+.links li a:hover{
+	color: #0088a9;
+}
+
+button {
+	margin-left: 20px;
+	padding: 9px 25px;
+	background-color: rgba(0,136,169,1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover{
+	background-color: rgba(0,136,169,0.8);
+}
+
+h2 {
+	font-family: "Jura", sans-serif;
+	font-weight: 700;
+	font-size: 45px;
+	color: #E0BC00;
+}
+
+h3 {
+	font-family: "Jura", sans-serif;
+	font-weight: 700;
+	font-size: 28px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-right: auto;
+	color: white;
+	display: flex;
+}
+
+h4 {
+	font-family: "Jura", sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	margin-right: auto;
+	color: white;
+}
+
+.home{
+	background-color: #00253C;
+	padding: 20px 0px;
+}
+
+.img {
+	margin-left: -100px;
+	height: 30vw;
+	background-size: 100% 100%;
+	object-fit: cover;
+}
+
+.content2-text {
+	font-family: "Jura", sans-serif;
+	color: white;
+	width: 550px;
+}
+
+.content2-text ul {
+	padding-top: 100px;
+	padding-left: 20px;
+}
+.content2-text li {
+	padding-bottom: 20px;
+	font-weight: 700;
+	font-size: 30px;
+	color: white;
+	display: flex;
+}
+
+.content2 {
+	width: 1130px;
+	max-width: 95%;
+	margin-left: 40%;
+	align-items: center;
+	justify-content: space-around;
+	position: relative;
+}
+
+.list {
+	list-style: none;
+}
